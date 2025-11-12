@@ -1,0 +1,7 @@
+# config.yaml
+batch_size: 8
+lr: 0.001
+epochs: 100
+max_len_sec: 4.0
+data_root: mc_wsj0_2mix_8ch_flat
+ckpt_dir: ckpts_nbss

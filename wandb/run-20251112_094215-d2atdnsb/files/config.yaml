@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            1yt7gy5a631vui53pdaa42i09jr02oq1:
+                args:
+                    - --config
+                    - config.yaml
+                codePath: train_nbss.py
+                codePathLocal: train_nbss.py
+                cpu_count: 12
+                cpu_count_logical: 24
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1958315118592"
+                        used: "385761124352"
+                email: nischhal@fusemachines.com
+                executable: /home/ness/FuseMachines/audio/speech_seperation_pytorch/audio_sep_pytorch/bin/python
+                gpu: NVIDIA GeForce RTX 5070 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 8960
+                      memoryTotal: "17094934528"
+                      name: NVIDIA GeForce RTX 5070 Ti
+                      uuid: GPU-e91cd433-1067-e059-6fdc-252a23dd4d8a
+                host: ness
+                memory:
+                    total: "32741810176"
+                os: Linux-6.16.3-76061603-generic-x86_64-with-glibc2.35
+                program: /home/ness/FuseMachines/audio/speech_seperation_NBSS/train_nbss.py
+                python: CPython 3.13.5
+                root: /home/ness/FuseMachines/audio/speech_seperation_NBSS
+                startedAt: "2025-11-12T03:57:15.668514Z"
+                writerId: 1yt7gy5a631vui53pdaa42i09jr02oq1
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 16
+                - 17
+            "4": 3.13.5
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
+batch_size:
+    value: 8
+ckpt_dir:
+    value: ckpts_nbss
+data_root:
+    value: mc_wsj0_2mix_8ch_flat
+epochs:
+    value: 100
+lr:
+    value: 0.001
+max_len_sec:
+    value: 4

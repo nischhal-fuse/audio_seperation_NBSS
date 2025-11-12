@@ -1,0 +1,48 @@
+{
+  "os": "Linux-6.16.3-76061603-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.13.5",
+  "startedAt": "2025-11-12T03:31:58.694202Z",
+  "args": [
+    "--batch_size",
+    "8",
+    "--lr",
+    "1e-3",
+    "--epochs",
+    "100",
+    "--data_root",
+    "mc_wsj0_2mix_8ch_flat",
+    "--ckpt_dir",
+    "ckpts_nbss"
+  ],
+  "program": "/home/ness/FuseMachines/audio/speech_seperation_NBSS/train_nbss.py",
+  "codePath": "train_nbss.py",
+  "codePathLocal": "train_nbss.py",
+  "email": "nischhal@fusemachines.com",
+  "root": "/home/ness/FuseMachines/audio/speech_seperation_NBSS",
+  "host": "ness",
+  "executable": "/home/ness/FuseMachines/audio/speech_seperation_pytorch/audio_sep_pytorch/bin/python",
+  "cpu_count": 12,
+  "cpu_count_logical": 24,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1958315118592",
+      "used": "385760653312"
+    }
+  },
+  "memory": {
+    "total": "32741810176"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "memoryTotal": "17094934528",
+      "cudaCores": 8960,
+      "architecture": "Blackwell",
+      "uuid": "GPU-e91cd433-1067-e059-6fdc-252a23dd4d8a"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "3qsg7bi5e2x93xdzd4uuawqoy2elmh6s"
+}
