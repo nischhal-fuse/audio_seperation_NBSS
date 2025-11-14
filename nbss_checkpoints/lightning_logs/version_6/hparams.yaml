@@ -1,0 +1,4 @@
+L: 20
+N: 256
+hidden: 512
+num_layers: 2

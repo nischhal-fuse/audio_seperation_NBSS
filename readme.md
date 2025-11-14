@@ -37,3 +37,7 @@ python nbss_preprocessor_gpu.py \
     --n_mics 8 \
     --target_sr 8000 \
     --max_length 4.0
+
+    GPU bidirectional LSTM
+    python nbss_lstm.py     --data_root mc_wsj0_2mix_8ch_robust     --batch_size 32     --accum_steps 2     --max_epochs 10
+

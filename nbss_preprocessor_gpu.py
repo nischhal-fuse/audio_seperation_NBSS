@@ -26,7 +26,7 @@ except ImportError:
 
 # ----------------------------------------------------------------------
 parser = argparse.ArgumentParser()
-parser.add_argument('--wsj0_root', type=str, default='/home/ness/FuseMachines/audio/speech_seperation_pytorch/wsj0_2mix')
+parser.add_argument('--wsj0_root', type=str, default='/home/ness/FuseMachines/audio/speech_seperation_pytorch/wsj0_2mix_2')
 parser.add_argument('--output_root', type=str, default='mc_wsj0_2mix_8ch_robust')
 parser.add_argument('--n_mics', type=int, default=8)
 parser.add_argument('--array_radius', type=float, default=0.08)
